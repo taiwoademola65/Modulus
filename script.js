@@ -14,5 +14,6 @@
         }else{
           displayArea.innerHTML += `<p>${i}neither fizz nor buzz</p>`
         }
+        
           }
             }
