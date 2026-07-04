@@ -11,6 +11,8 @@
           displayArea.innerHTML += `<p class="text-primary">${i} fizz</p>`
         }else if(i % 5 == 0){
           displayArea.innerHTML += `<p>${i} buzz</p>`
+        }else{
+          displayArea.innerHTML += `<p>${i}neither fizz nor buzz</p>`
         }
           }
             }
